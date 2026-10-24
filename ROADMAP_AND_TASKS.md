@@ -13,14 +13,14 @@ Do not mark a task DONE until its acceptance criteria are verified.
 - [ ] Decide whether accounts are excluded from the first demo (recommended: exclude).
 
 ## Phase 1 — Foundation and UI shell
-- [ ] Inspect repository and report existing files before changing anything.
-- [ ] Create React + TypeScript + Vite frontend if no existing frontend exists.
-- [ ] Add responsive design system and navigation.
-- [ ] Build landing page, try-on workspace, upload panel, garment preview, measurement panel, and results panel.
-- [ ] Add demo garment assets with source/license notes.
-- [ ] Add loading, empty, error, and success states.
-- [ ] Add lint, typecheck, and basic frontend tests.
-Acceptance: app starts locally, all primary pages render, and no console errors are present in the main flow.
+- [x] Inspect repository and report existing files before changing anything.
+- [x] Create React + TypeScript + Vite frontend if no existing frontend exists.
+- [x] Add responsive design system and navigation.
+- [x] Build landing page, try-on workspace, upload panel, garment preview, measurement panel, and results panel.
+- [x] Add demo garment assets with source/license notes.
+- [x] Add loading, empty, error, and success states.
+- [x] Add lint, typecheck, and basic frontend tests.
+Acceptance: app starts locally, all primary pages render, and no console errors are present in the main flow. (Verified 2026-10-24)
 
 ## Phase 2 — Upload and fit-guidance prototype
 - [ ] Add validated garment image upload and local preview.

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mannequinShade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EDE6DC"/>
+      <stop offset="50%" stop-color="#E2D8CC"/>
+      <stop offset="100%" stop-color="#D4C7B8"/>
+    </linearGradient>
+    <filter id="bodyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#2D2823" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <!-- Atelier Pedestal -->
+  <ellipse cx="200" cy="565" rx="85" ry="18" fill="#E6DDCF" stroke="#C9BCAB" stroke-width="2"/>
+  <rect x="195" y="470" width="10" height="95" fill="#8C7E6F"/>
+  <ellipse cx="200" cy="470" rx="14" ry="4" fill="#6E6255"/>
+
+  <!-- Mannequin Torso Form (Standard Editorial Proportions) -->
+  <g filter="url(#bodyShadow)">
+    <!-- Neck Form & Finial -->
+    <path d="M 190 60 L 210 60 L 208 95 L 192 95 Z" fill="#C2B29F" stroke="#9C8B77" stroke-width="1.5"/>
+    <ellipse cx="200" cy="58" rx="14" ry="7" fill="#8C7862" stroke="#665645" stroke-width="1.5"/>
+    <circle cx="200" cy="46" r="6" fill="#8C7862"/>
+
+    <!-- Torso Sculpted Form -->
+    <path d="M 192 95 L 140 115 Q 120 125 125 145 L 138 215 Q 146 250 148 275 Q 142 320 126 360 L 130 450 Q 170 470 200 470 Q 230 470 270 450 L 274 360 Q 258 320 252 275 Q 254 250 262 215 L 275 145 Q 280 125 260 115 L 208 95 Z"
+          fill="url(#mannequinShade)" stroke="#BFAF9B" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Seam Lines / Atelier Measurement Grid -->
+    <!-- Center Front Vertical Seam -->
+    <path d="M 200 95 L 200 470" fill="none" stroke="#B8A793" stroke-width="1.5" stroke-dasharray="6 3"/>
+
+    <!-- Chest Guideline -->
+    <path d="M 134 195 Q 200 208 266 195" fill="none" stroke="#C7B6A1" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+    <!-- Natural Waist Guideline -->
+    <path d="M 148 275 Q 200 286 252 275" fill="none" stroke="#C7B6A1" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+    <!-- High Hip Guideline -->
+    <path d="M 136 345 Q 200 360 264 345" fill="none" stroke="#C7B6A1" stroke-width="1.2" stroke-dasharray="3 3"/>
+  </g>
+</svg>

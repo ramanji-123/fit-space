@@ -1,0 +1,13 @@
+{
+  "name": "fit-space",
+  "private": true,
+  "version": "0.1.0",
+  "description": "FIT SPACE - AI-Powered Virtual Try-On and Personalized Fashion Recommendation System",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "lint": "npm --prefix frontend run lint",
+    "test": "npm --prefix frontend test"
+  }
+}
